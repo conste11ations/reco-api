@@ -54,8 +54,21 @@ List.create(
 )
 
 List.create(
-  name: "The BEST Coffee Roasters",
-  location: "Canada"
+  name: "The BEST Coffee Roasters"
+)
+
+List.create(
+  name: "Bookstores > Amazon EVERY DAY"
+)
+
+List.create(
+  name: "Resto Wine Exclusives",
+  location: "Montreal, QC"
+)
+
+List.create(
+  name: "Toronto's Cutest Boutiques",
+  location: "Toronto, QC"
 )
 
 # BUSINESSES
