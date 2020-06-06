@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   # root to: ‘api#recommendations#index’
   namespace :api do
       resources :recommendations, only: [:index, :new, :create]
+      resources :businesses, only: [:index, :new, :create]
     end
 
 end

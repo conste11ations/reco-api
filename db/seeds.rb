@@ -10,3 +10,8 @@ Recommendation.create(
   because: "this place is awesome",
   business_id: 1
 )
+
+Business.create(
+  website: "http://www.google.com",
+  name: "Google"
+)
