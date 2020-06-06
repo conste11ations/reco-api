@@ -133,79 +133,106 @@ Business.create(
 # LIST 1 'Black Owned MTL Restaurants' (10)
 BusinessListing.create(
   list_id: 1,
-  business_id: 1
+  business_id: 1,
+  upvotes: 25,
+  downvotes: 1
 )
 
 BusinessListing.create(
   list_id: 1,
-  business_id: 2
+  business_id: 2,
+  upvotes: 78,
+  downvotes: 2
 )
 
 BusinessListing.create(
   list_id: 1,
-  business_id: 3
+  business_id: 3,
+  upvotes: 219,
+  downvotes: 10
 )
 
 BusinessListing.create(
   list_id: 1,
-  business_id: 4
+  business_id: 4,
+  upvotes: 36,
 )
 
 BusinessListing.create(
   list_id: 1,
-  business_id: 5
+  business_id: 5,
+  upvotes: 89,
+  downvotes: 2
 )
 
 BusinessListing.create(
   list_id: 1,
-  business_id: 6
+  business_id: 6,
+  upvotes: 49,
+  downvotes: 1
 )
 
 BusinessListing.create(
   list_id: 1,
-  business_id: 7
+  business_id: 7,
+  upvotes: 4
 )
 
 BusinessListing.create(
   list_id: 1,
-  business_id: 8
+  business_id: 8,
+  upvotes: 263,
+  downvotes: 8
 )
 
 BusinessListing.create(
   list_id: 1,
-  business_id: 9
+  business_id: 9,
+  upvotes: 591,
+  downvotes: 13
 )
 
 BusinessListing.create(
   list_id: 1,
-  business_id: 10
+  business_id: 10,
+  upvotes: 422,
+  downvotes: 2
 )
 
 # LIST 2 'Vintage Mile End' (5)
 
 BusinessListing.create(
   list_id: 2,
-  business_id: 11
+  business_id: 11,
+  upvotes: 800,
+  downvotes: 87
 )
 
 BusinessListing.create(
   list_id: 2,
-  business_id: 12
+  business_id: 12,
+  upvotes: 167,
+  downvotes: 2
 )
 
 BusinessListing.create(
   list_id: 2,
-  business_id: 13
+  business_id: 13,
+  upvotes: 319,
+  downvotes: 20
 )
 
 BusinessListing.create(
   list_id: 2,
-  business_id: 14
+  business_id: 14,
+  upvotes: 50,
+  downvotes: 1
 )
 
 BusinessListing.create(
   list_id: 2,
-  business_id: 15
+  business_id: 15,
+  upvotes: 11
 )
 
 # RECOMMENDATIONS
