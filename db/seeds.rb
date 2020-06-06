@@ -1,74 +1,51 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
-# Recommendation.create(
-#   because: "this place is awesome",
-#   business_id: 1
-# )
-
-# Business.create(
-#   website: "http://www.google.com",
-#   name: "Google"
-# )
-
-# List.create(
-#   name: "best search engines ever",
-# )
-
-# List.create(
-#   name: "good italian food",
-#   location: "Toronto, ON"
-# )
-
-# BusinessListing.create(
-#   list_id: 1,
-#   business_id: 1
-# )
-
-# New Additions
 
 # LISTS
 List.create(
   name: 'Black Owned MTL Restaurants',
-  location: 'Montreal, QC'
+  location: 'Montreal, QC',
+  description: 'Support local black owned businesses! Where possible, order directly with restaurants and not via UberEats, SkipTheDishes, etc, to ensure restaurants receive as much money as possible.'
 )
 
 List.create(
   name: 'Vintage Mile End',
-  location: 'Mile End, Montreal, QC' # location formatting, is there a plugin we need for this?
+  location: 'Mile End, Montreal, QC', # location formatting, is there a plugin we need for this?
+  description: 'We <3 our local vintage stores'
 )
 
 List.create(
   name: "MTL Slow Fashion",
-  location: "Montreal, QC"
+  location: "Montreal, QC",
+  description: "a list for all those incredibly creative Montreal designers helping make fashion a little more ethical, and a lot more interesting."
 )
 
 List.create(
   name: "Mile End Coffee Shops",
-  location: "Mile End, Montreal, QC"
+  location: "Mile End, Montreal, QC",
+  description: "where are the hippest places to drink hot bean water?"
 )
 
 List.create(
-  name: "The BEST Coffee Roasters"
+  name: "The BEST Coffee Roasters",
+  description: "looking for small production roasters, doing direct trade, "
 )
 
 List.create(
-  name: "Bookstores > Amazon EVERY DAY"
+  name: "Bookstores > Amazon EVERY DAY",
+  description: "tell me about your favourite bookstores, the ones with great curation, first editions, second-hand books, comic books, who deliver on their bike straight to your door."
 )
 
 List.create(
   name: "Resto Wine Exclusives",
-  location: "Montreal, QC"
+  location: "Montreal, QC",
+  description: "hookups for local restaurants selling their private import wines during covid"
 )
 
 List.create(
-  name: "Toronto's Cutest Boutiques",
-  location: "Toronto, QC"
+  name: "Cool Boutiques",
+  location: "Toronto, QC",
+  description: "only stores with avantgarde taste, please. No basics. thanks."
 )
 
 # BUSINESSES
