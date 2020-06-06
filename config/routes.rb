@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   namespace :api do
       resources :recommendations, only: [:index, :new, :create]
       resources :businesses, only: [:index, :new, :create]
+      resources :lists, only: [:index, :new, :create] 
     end
 
 end

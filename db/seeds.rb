@@ -15,3 +15,12 @@ Business.create(
   website: "http://www.google.com",
   name: "Google"
 )
+
+List.create(
+  name: "best search engines ever",
+)
+
+List.create(
+  name: "good italian food",
+  location: "Toronto, ON"
+)
