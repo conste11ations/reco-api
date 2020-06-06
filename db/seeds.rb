@@ -24,3 +24,8 @@ List.create(
   name: "good italian food",
   location: "Toronto, ON"
 )
+
+BusinessListing.create(
+  list_id: 1,
+  business_id: 1
+)
