@@ -1,3 +1,3 @@
 class Recommendation < ApplicationRecord
-  validates :because, presence: true
+  validates :because, :business_id, presence: true
 end

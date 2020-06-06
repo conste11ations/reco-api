@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2020_06_06_010615) do
 
   create_table "recommendations", force: :cascade do |t|
     t.string "because"
-    t.date "date_created"
+    t.integer "business_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
