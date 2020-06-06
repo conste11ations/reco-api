@@ -265,7 +265,7 @@ Recommendation.create(
 )
 
 Recommendation.create(
-  because: "I LOVE the Ackee and Salt Fish. Get it, you won't regret it!",
+  because: "love Mango Bay!",
   business_id: 6
 )
 
