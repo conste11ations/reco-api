@@ -130,7 +130,7 @@ Business.create(
 
 # BUSINESS LISTING
 
-# LIST 1 'Black Owned MTL Restaurants' (10)
+# Recommendations of businesses for LIST 1 'Black Owned MTL Restaurants' (10)
 Recommendation.create(
   list_id: 1,
   business_id: 1,
@@ -199,7 +199,7 @@ Recommendation.create(
   downvotes: 2
 )
 
-# LIST 2 'Vintage Mile End' (5)
+# Recommendations of businesses for LIST 2 'Vintage Mile End' (5)
 
 Recommendation.create(
   list_id: 2,
@@ -235,83 +235,83 @@ Recommendation.create(
   upvotes: 11
 )
 
-# RECOMMENDATIONS
+# COMMENTS ABOUT RECOMMENDATIONS
 
 # LIST 1 'Black Owned MTL Restaurants' (10)
 
-# Comment.create(
-#   because: "this place is awesome",
-#   business_id: 1
-# )
+Comment.create(
+  because: "this place is awesome",
+  recommendation_id: 1
+)
 
-# Comment.create(
-#   because: "Lamb Curry is incredible",
-#   business_id: 2
-# )
+Comment.create(
+  because: "Lamb Curry is incredible",
+  recommendation_id: 2
+)
 
-# Comment.create(
-#   because: "my family and I are regulars; the staff is so kind!",
-#   business_id: 3
-# )
+Comment.create(
+  because: "my family and I are regulars; the staff is so kind!",
+  recommendation_id: 3
+)
 
-# Comment.create(
-#   because: "can't get enough of this place, the energy rocks!",
-#   business_id: 4
-# )
+Comment.create(
+  because: "can't get enough of this place, the energy rocks!",
+  recommendation_id: 4
+)
 
-# Comment.create(
-#   because: "I LOVE the Ackee and Salt Fish. Get it, you won't regret it!",
-#   business_id: 5
-# )
+Comment.create(
+  because: "I LOVE the Ackee and Salt Fish. Get it, you won't regret it!",
+  recommendation_id: 5
+)
 
-# Comment.create(
-#   because: "love Mango Bay!",
-#   business_id: 6
-# )
+Comment.create(
+  because: "love Mango Bay!",
+  recommendation_id: 6
+)
 
-# Comment.create(
-#   because: "Mango lassi people, need I say more?",
-#   business_id: 7
-# )
+Comment.create(
+  because: "Mango lassi people, need I say more?",
+  recommendation_id: 7
+)
 
-# Comment.create(
-#   because: "everybody raves about st v or fairmount bagels, but this spot is the real deal. If you've never been, you don't know a Montreal bagel.",
-#   business_id: 8
-# )
+Comment.create(
+  because: "everybody raves about st v or fairmount bagels, but this spot is the real deal. If you've never been, you don't know a Montreal bagel.",
+  recommendation_id: 8
+)
 
-# Comment.create(
-#   because: "I literally get the spanakopita multiple times a week. I can't get enough and the vibe is so welcoming",
-#   business_id: 9
-# )
+Comment.create(
+  because: "I literally get the spanakopita multiple times a week. I can't get enough and the vibe is so welcoming",
+  recommendation_id: 9
+)
 
-# Comment.create(
-#   because: "the best jazz, the best chili, the best community. Nobody does it better.",
-#   business_id: 10
-# )
+Comment.create(
+  because: "the best jazz, the best chili, the best community. Nobody does it better.",
+  recommendation_id: 10
+)
 
-# # LIST 2 'Vintage Mile End' (5)
+# LIST 2 'Vintage Mile End' (5)
 
-# Comment.create(
-#   because: "beyond their incredible selection of vintage, in-house creations, and reasonable prices, I love that CV supports local artists with their rotating window display. A true staple of the mtl vintage scene.",
-#   business_id: 11
-# )
+Comment.create(
+  because: "beyond their incredible selection of vintage, in-house creations, and reasonable prices, I love that CV supports local artists with their rotating window display. A true staple of the mtl vintage scene.",
+  recommendation_id: 11
+)
 
-# Comment.create(
-#   because: "just TRY walking out without a great pair of vintage jeans from this spot. You can't do it.",
-#     business_id: 12
-# )
+Comment.create(
+  because: "just TRY walking out without a great pair of vintage jeans from this spot. You can't do it.",
+    recommendation_id: 12
+)
 
-# Comment.create(
-#   because: "honestly.. shockingly reasonable prices for the most beautiful designer vintage. This shop is expertly curated, kudos to the buyers.",
-#   business_id: 13
-# )
+Comment.create(
+  because: "honestly.. shockingly reasonable prices for the most beautiful designer vintage. This shop is expertly curated, kudos to the buyers.",
+  recommendation_id: 13
+)
 
-# Comment.create(
-#   because: "trade in the pieces you don't wear anymore for store credit. Environmentally responsible and fashion conscious ;)",
-#   business_id: 14
-# )
+Comment.create(
+  because: "trade in the pieces you don't wear anymore for store credit. Environmentally responsible and fashion conscious ;)",
+  recommendation_id: 14
+)
 
-# Comment.create(
-#   because: "touchingly soft aesthetic and cute finds",
-#   business_id: 15
-# )
+Comment.create(
+  because: "touchingly soft aesthetic and cute finds",
+  recommendation_id: 15
+)

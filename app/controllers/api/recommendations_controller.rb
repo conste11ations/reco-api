@@ -1,6 +1,6 @@
 class Api::RecommendationsController < ApplicationController
   def index
     @recommendations = Recommendation.all
-    render json: @brecommendations
+    render json: @recommendations
   end
 end
