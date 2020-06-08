@@ -7,7 +7,7 @@ Rails.application.routes.draw do
       resources :businesses, only: [:index, :new, :create]
       resources :lists, only: [:index, :new, :create]
       resources :recommendations, only: [:index, :new, :create]
-      resources :search 
+      resources :search, only: [:index]
     end
 
 end
