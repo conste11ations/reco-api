@@ -110,10 +110,10 @@ ALTER SEQUENCE public.comments_id_seq OWNED BY public.comments.id;
 CREATE TABLE public.lists (
     id bigint NOT NULL,
     location character varying DEFAULT 'Canada'::character varying,
-    name character varying,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL,
-    description character varying
+    description character varying,
+    name text
 );
 
 
@@ -325,6 +325,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20200606164241'),
 ('20200606164459'),
 ('20200608060527'),
-('20200608182713');
+('20200608182713'),
+('20200608201105');
 
 
