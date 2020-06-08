@@ -10,23 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_08_060527) do
+ActiveRecord::Schema.define(version: 2020_06_08_182713) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "business_listings", force: :cascade do |t|
-    t.integer "business_id"
-    t.integer "list_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.integer "upvotes", default: 0
-    t.integer "downvotes", default: 0
-  end
-
   create_table "businesses", force: :cascade do |t|
     t.string "website"
     t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "comments", force: :cascade do |t|
+    t.string "because"
+    t.integer "recommendation_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -49,10 +47,12 @@ ActiveRecord::Schema.define(version: 2020_06_08_060527) do
   end
 
   create_table "recommendations", force: :cascade do |t|
-    t.string "because"
     t.integer "business_id"
+    t.integer "list_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "upvotes", default: 0
+    t.integer "downvotes", default: 0
   end
 
 end
