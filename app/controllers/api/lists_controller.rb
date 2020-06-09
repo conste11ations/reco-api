@@ -3,4 +3,9 @@ class Api::ListsController < ApplicationController
     @lists = List.all
     render json: @lists
   end
+
+  def show
+    @list = List.get_list(params[:id])
+    render json: @list
+  end
 end
