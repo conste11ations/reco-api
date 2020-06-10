@@ -333,75 +333,75 @@ Comment.create(
 
 Comment.create(
   because: "love their sandal selection",
-  recommendation_id: 16
+  recommendation_id: 11
 )
 
 Comment.create(
   because: "their purses are seriously on point. I can't find a beaded purse I love more than the one I bought here",
-    recommendation_id: 17
+    recommendation_id: 12
 )
 
 Comment.create(
   because: "just bought a LV leather duffel and I'm getting so many compliments on it",
-  recommendation_id: 18
+  recommendation_id: 13
 )
 
 Comment.create(
   because: "the staff plays the best music lol",
-  recommendation_id: 19
+  recommendation_id: 14
 )
 
 Comment.create(
   because: "did a shoot with this girl the other day and it was a blast. Incredibly talented stylist so don't miss out on her vintage finds",
-  recommendation_id: 20
+  recommendation_id: 15
 )
 
 Comment.create(
   because: "For all your stylish covid mask needs, hit them up.",
-  recommendation_id: 21
+  recommendation_id: 11
 )
 
 Comment.create(
   because: "Love them cause they sell local artists postcards, pins. A lot of graphic tees that are pretty sassy. Really gives you a sense of the Montreal vibe.",
-    recommendation_id: 22
+    recommendation_id: 12
 )
 
 Comment.create(
   because: "Nabbed some Ganni from a couple seasons ago, nbd",
-  recommendation_id: 23
+  recommendation_id: 13
 )
 
 Comment.create(
   because: "found some platform boots for 10 dollars I mean... I couldn't have even thrifted them for that cheap!",
-  recommendation_id: 24
+  recommendation_id: 14
 )
 
 Comment.create(
   because: "just bought the cutest little mushroom lamp. I live in LA but Caro was sweet enough to ship it out to me for free :)",
-  recommendation_id: 25
+  recommendation_id: 15
 )
 
 Comment.create(
   because: "Love that they've continued exhbiting artists in their window even during covid. So important to support local talent. Keep it up!",
-  recommendation_id: 26
+  recommendation_id: 11
 )
 
 Comment.create(
   because: "bought the most fabulous rainbow sports bra from them. I think it's made in MTL?",
-    recommendation_id: 27
+    recommendation_id: 12
 )
 
 Comment.create(
   because: "beautiful selection of costume jewelry",
-  recommendation_id: 28
+  recommendation_id: 13
 )
 
 Comment.create(
   because: "very low key vibes and good prices, I dig this place way more than some of the higher end vintage shops that are popping up around the mile end",
-  recommendation_id: 29
+  recommendation_id: 14
 )
 
 Comment.create(
   because: "so many colourful pieces!",
-  recommendation_id: 30
+  recommendation_id: 15
 )

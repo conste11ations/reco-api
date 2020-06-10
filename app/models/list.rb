@@ -3,7 +3,7 @@ class List < ApplicationRecord
     result = []
     list = List.find(id)
     recommendations = list.recommendations
-    comments = recommendations.map {|r| r.comments}
+    comments = recommendations.map {|r| p r.comments}
     businesses = recommendations.map {|r| r.business}
     result << list
     result << recommendations
