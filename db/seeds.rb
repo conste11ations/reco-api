@@ -53,79 +53,94 @@ List.create(
 # LIST 1 'Black Owned MTL Restaurants' (10)
 Business.create(
   name: "Le Virunga",
-  website: 'http://www.levirungarestaurant.ca/'
+  website: 'http://www.levirungarestaurant.ca/',
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 Business.create(
   name: "Caribbean Curry House",
-  website: "https://www.maisonducari.com"
+  website: "https://www.maisonducari.com",
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 Business.create(
   name: "Le Nil Bleu",
-  website: "https://www.nilbleurestaurant.com/"
+  website: "https://www.nilbleurestaurant.com/",
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 Business.create(
   name: "Boom J's Cuisine",
-  website: "https://www.boomjscuisine.ca/"
+  website: "https://www.boomjscuisine.ca/",
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 Business.create(
   name: "Caribbean Food Factory",
-  website: "https://caribbeanfoodfactory.restaurant/"
+  website: "https://caribbeanfoodfactory.restaurant/",
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 Business.create(
   name: "Mango Bay",
-  website: "https://www.mangobay.ca/"
+  website: "https://www.mangobay.ca/",
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 Business.create(
   name: "Akwaba",
-  website: "http://www.restaurantakwaba.ca/"
+  website: "http://www.restaurantakwaba.ca/",
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 Business.create(
   name: "MTL Bagel",
-  website: "http://mtlbagel.ca/"
+  website: "http://mtlbagel.ca/",
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 Business.create(
   name: "Phyllo Bar Melina's",
-  website: "https://www.instagram.com/phyllobarmelinas"
+  website: "https://www.instagram.com/phyllobarmelinas",
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 Business.create(
   name: "Cafe Resonance",
-  website: "http://resonancecafe.com/"
+  website: "http://resonancecafe.com/",
+  image: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/6/1/6/1/7231616-1-eng-GB/Senegal-is-ready-to-supply-US-mangoes_wrbm_large.jpg'
 )
 
 # LIST 2 'Vintage Mile End' (5)
 
 Business.create(
   name: "Citizen Vintage",
-  website: "https://www.citizenvintage.com/"
+  website: "https://www.citizenvintage.com/",
+  image: 'https://images.squarespace-cdn.com/content/v1/52ee831de4b0e1725299d89f/1588199804211-D8610O60M4ZTKI31F5UG/ke17ZwdGBToddI8pDm48kEycfwrrZSWuy_3IQH-HSkR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQu_StiuY205mcJbIAOsjUR2godZDo3cuB7b0LID-ZHVOno-kJk2kRFa0i0GlSZ-nQ/Vintage+Accessories+-+1+of+1.jpg?format=1500w'
 )
 
 Business.create(
   name: "Annex Vintage",
-  website: "https://www.annexvintage.com/us/"
+  website: "https://www.annexvintage.com/us/",
+  image: 'https://img.theculturetrip.com/768x432/wp-content/uploads/2017/05/annex_edits06.jpg'
 )
 
 Business.create(
   name: "Ruse Boutique",
-  website: "https://www.ruseboutique.com/fc/"
+  website: "https://www.ruseboutique.com/fc/",
+  image: 'https://media.timeout.com/images/105581327/image.jpg'
 )
 
 Business.create(
   name: "Empire Exchange",
-  website: "http://empiremtl.com/"
+  website: "http://empiremtl.com/",
+  image: 'https://images.squarespace-cdn.com/content/v1/586708c1893fc0dff9ea9ee7/1484585115319-BUPSHADFEMVEFUBYSY2E/ke17ZwdGBToddI8pDm48kHYmNpKvr7_DrcVgItqxqpx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UXhtM2JX_2VkrY1i0EyCVwn0_RvhDw3WhzhGF_vFQ1zLYIU5blbDmN6a0_3pd8Fnhg/empirelogowindow.JPG?format=2500w'
 )
 
 Business.create(
   name: "Caro Elizabeth Vintage",
-  website: "https://www.carolinemulock.com/"
+  website: "https://www.carolinemulock.com/",
+  image: 'https://format-com-cld-res.cloudinary.com/image/private/s--HLxBQA3k--/c_crop,h_3240,w_2592,x_0,y_0/c_fill,g_center,h_475,w_380/fl_keep_iptc.progressive,q_95/v1/4e2a6d0297f4177a27b76c1c01f35ffd/CEV2-bluedress.jpg'
 )
 
 # BUSINESS LISTING
@@ -314,4 +329,79 @@ Comment.create(
 Comment.create(
   because: "touchingly soft aesthetic and cute finds",
   recommendation_id: 15
+)
+
+Comment.create(
+  because: "love their sandal selection",
+  recommendation_id: 16
+)
+
+Comment.create(
+  because: "their purses are seriously on point. I can't find a beaded purse I love more than the one I bought here",
+    recommendation_id: 17
+)
+
+Comment.create(
+  because: "just bought a LV leather duffel and I'm getting so many compliments on it",
+  recommendation_id: 18
+)
+
+Comment.create(
+  because: "the staff plays the best music lol",
+  recommendation_id: 19
+)
+
+Comment.create(
+  because: "did a shoot with this girl the other day and it was a blast. Incredibly talented stylist so don't miss out on her vintage finds",
+  recommendation_id: 20
+)
+
+Comment.create(
+  because: "For all your stylish covid mask needs, hit them up.",
+  recommendation_id: 21
+)
+
+Comment.create(
+  because: "Love them cause they sell local artists postcards, pins. A lot of graphic tees that are pretty sassy. Really gives you a sense of the Montreal vibe.",
+    recommendation_id: 22
+)
+
+Comment.create(
+  because: "Nabbed some Ganni from a couple seasons ago, nbd",
+  recommendation_id: 23
+)
+
+Comment.create(
+  because: "found some platform boots for 10 dollars I mean... I couldn't have even thrifted them for that cheap!",
+  recommendation_id: 24
+)
+
+Comment.create(
+  because: "just bought the cutest little mushroom lamp. I live in LA but Caro was sweet enough to ship it out to me for free :)",
+  recommendation_id: 25
+)
+
+Comment.create(
+  because: "Love that they've continued exhbiting artists in their window even during covid. So important to support local talent. Keep it up!",
+  recommendation_id: 26
+)
+
+Comment.create(
+  because: "bought the most fabulous rainbow sports bra from them. I think it's made in MTL?",
+    recommendation_id: 27
+)
+
+Comment.create(
+  because: "beautiful selection of costume jewelry",
+  recommendation_id: 28
+)
+
+Comment.create(
+  because: "very low key vibes and good prices, I dig this place way more than some of the higher end vintage shops that are popping up around the mile end",
+  recommendation_id: 29
+)
+
+Comment.create(
+  because: "so many colourful pieces!",
+  recommendation_id: 30
 )
