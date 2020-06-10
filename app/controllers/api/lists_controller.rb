@@ -19,7 +19,7 @@ class Api::ListsController < ApplicationController
 
   private
 
-  def category_params
+  def list_params
     params.require(:list).permit(
       :name,
       :location,
