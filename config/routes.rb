@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       resources :comments, only: [:index, :new, :create]
       resources :businesses, only: [:index, :new, :create]
       resources :lists, only: [:index, :new, :create, :show]
-      resources :recommendations, only: [:index, :new, :create]
+      resources :recommendations, only: [:index, :new, :create, :update]
       resources :search, only: [:index]
     end
 
