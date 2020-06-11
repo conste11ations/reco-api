@@ -1,12 +1,13 @@
 class Api::RecommendationsController < ApplicationController
   
   def update
+    # reco_params # how could they be used properly? 
     if params[:type] == 'upvote'
       Recommendation.upvote(params[:id])
     elsif params[:type] == 'downvote'
       Recommendation.downvote(params[:id])
     end
-    reco_params
+    render json: Recommendation.find(params[:id]), notice: 'vote accepted'
   end
   
   def index
