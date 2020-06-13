@@ -29,7 +29,7 @@ class Api::RecommendationsController < ApplicationController
   end
 
   def recommendations_params
-    params.require(:business_id, :list_id).permit(:business_id, :list_id)
+    params.require(:recommendation).permit(:business_id, :list_id)
   end
 
 end
