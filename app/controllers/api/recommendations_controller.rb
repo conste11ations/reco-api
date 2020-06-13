@@ -16,9 +16,9 @@ class Api::RecommendationsController < ApplicationController
   end
 
   def create
-    @recommendations = Recommendations.new(recommendations_params)
-    if @recommendations.save
-      render json: @recommendations
+    @recommendation = Recommendations.new(recommendations_params)
+    if @recommendation.save
+      render json: @recommendation
     end
   end
 
