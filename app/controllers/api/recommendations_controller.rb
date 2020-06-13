@@ -15,9 +15,21 @@ class Api::RecommendationsController < ApplicationController
     render json: @recommendations
   end
 
+  def create
+    @recommendations = Recommendations.new(recommendations_params)
+    if @recommendations.save
+      render json: @recommendations
+    end
+  end
+
   private
 
   def reco_params
     params.require(:type)
   end
+
+  def recommendations_params
+    params.require(:business_id, :list_id).permit(:business_id, :list_id)
+  end
+
 end
