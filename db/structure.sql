@@ -194,7 +194,7 @@ CREATE TABLE public.recommendations (
     list_id integer,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL,
-    upvotes integer DEFAULT 0,
+    upvotes integer DEFAULT 1,
     downvotes integer DEFAULT 0
 );
 
@@ -343,6 +343,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20200608182713'),
 ('20200608201105'),
 ('20200608203411'),
-('20200610140552');
+('20200610140552'),
+('20200614045531');
 
 
