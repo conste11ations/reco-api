@@ -18,7 +18,12 @@ class Api::RecommendationsController < ApplicationController
   def create
     @recommendation = Recommendation.new(recommendations_params)
     if @recommendation.save
-      render json: @recommendation
+      # render json: @recommendation
+      serialized_data = ActiveModelSerializers::Adapter::Json.new(
+        RecommendationSerializer.new(@recommendation)
+        ).serializable_hash
+        ActionCable.server.broadcast 'recommendations_channel', serialized_data
+        head :ok
     end
   end
 
