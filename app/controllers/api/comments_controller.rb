@@ -14,6 +14,6 @@ class Api::CommentsController < ApplicationController
   private
 
   def comment_params
-    params.permit(:because, :comment, :recommendation_id)
+    params.require(:comment).permit(:because, :recommendation_id)
   end
 end
