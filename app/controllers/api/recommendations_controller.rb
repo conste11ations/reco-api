@@ -25,6 +25,7 @@ class Api::RecommendationsController < ApplicationController
         ActionCable.server.broadcast 'recommendations_channel', serialized_data
         head :ok
     end
+    
   end
 
   private
