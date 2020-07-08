@@ -1,24 +1,8 @@
-# README
+# Reco API server
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##### Steps to install and run:
+1. git clone this repository
+2. run `bundle install` to install dependencies
+3. run `rails db:reset` to seed database
+4. run `rails s` to start api server
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
